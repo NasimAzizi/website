@@ -2,7 +2,7 @@ import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 import { brainwave } from "../assets";
-import finalLogo from "../assets/final_logo.png";
+import finalLogo from "../assets/final_logo.jpeg";
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
@@ -39,7 +39,6 @@ const Header = () => {
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a className="inline-flex items-center w-[14rem] xl:mr-8" href="#hero">
           <img src={finalLogo} width={90} height={20} alt="Brainwave" />
-          <span className="ml-1" style={{ fontSize: '22px' }}><b>AZIZI SOFT</b></span>
         </a>
 
         <nav
